@@ -1,0 +1,41 @@
+.ARating-container
+{
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+
+    width: 230px;
+    height: 20px;
+}
+.ARatingBackGround
+{
+    position: relative;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 100%;
+
+    transition: all.5s;
+
+    background: linear-gradient(-45deg,#383838,#282829);
+    background-position: center center;
+    background-size: cover;
+}
+.ARatingStar
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    background: url(../images/ARatingStar.png);
+    background-repeat: repeat-x;
+}
