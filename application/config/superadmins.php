@@ -1,5 +1,6 @@
 <?
 	
 	return [
-		"aishmurodov"
+		"admin",
+		"aishmurodov",
 	];

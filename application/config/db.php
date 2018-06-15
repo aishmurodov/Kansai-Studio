@@ -2,7 +2,7 @@
 
 return [
 	'host' => 'localhost',
-	'name' => 'kansai_laravel',
-	'user' => 'root',
+	'name' => '',
+	'user' => '',
 	'password' => '',
 ];

@@ -70,7 +70,7 @@ class AccountController extends Controller {
 
 			$vars = [
 				"paginator" => $paginator,
-				"favorites" => $favorites
+				"favorites" => array_reverse($favorites)
 			];
 			$this->view->render('Избранные', $vars);
 		}

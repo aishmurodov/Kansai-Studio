@@ -160,7 +160,7 @@ class AdminController extends Controller {
 			if (isset($_POST['set-hidden'])) 
 				if (!$this->model->hidePost($_POST['set-hidden'])) 
 					$this->view->message('Ошибка', "Не удалось скрыть пост");
-			else if (isset($_POST['unset-hidden'])) 
+			if (isset($_POST['unset-hidden'])) 
 				if (!$this->model->showPost($_POST['unset-hidden'])) 
 					$this->view->message('Ошибка', "Не удалось скрыть пост");
 			$this->view->location('admin/catalog/edit');

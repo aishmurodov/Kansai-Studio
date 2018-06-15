@@ -100,11 +100,9 @@ body {
     padding: 10px; }
     #main_content #left_content .block #player_container > iframe {
       width: 100%;
-      height: 400px;
       margin-bottom: 10px; }
     #main_content #left_content .block #player_container > .plyr {
       width: 100%;
-      height: 400px;
       margin-bottom: 10px; }
     #main_content #left_content .block #player_container > .target_serie {
       display: inline-block;
